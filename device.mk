@@ -24,7 +24,7 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # NFC
-TARGET_NFC_CHIPSET := st21
+TARGET_NFC_CHIPSET := snxxx
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -50,4 +50,4 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, device/oplus/sm8350-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oplus/RMX3360/RMX3360-vendor.mk)
+$(call inherit-product, vendor/oplus/cupid/RMX3360-vendor.mk)
